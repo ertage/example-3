@@ -4,14 +4,17 @@
     var selectMenu = $('.select__menu');
     var btnReadMore  = $('.content__discripton-btn');
     var list = $('.content__discripton-list')
+    var contentSize = $('.content_size_tablet');
 
     select.click(function() {
       $(this).find(selectMenu).fadeToggle();
       return false;
     })
     btnReadMore.click(function() {
+      var listHeight = list.height();
       $(this).hide();
       list.fadeIn();
+      contentSize.css('margin-bottom', listHeight);
       return false;
     })
     initSlider();
