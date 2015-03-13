@@ -1,4 +1,4 @@
-# resmonsive-markup
+# responsive-markup
 
 <h1>Getting started</h1>
 
