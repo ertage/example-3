@@ -1,4 +1,4 @@
- "use strict"
+// "use strict"
 (function(){
   $(document).ready(function() {
     var select = $('.select');
